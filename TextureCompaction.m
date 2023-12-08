@@ -19,7 +19,7 @@ maxL = 64;
 N = 750;
 
 %kernel for compaction
-psik = 1.0./(1.0*(0:maxL) + 1.0);
+psik = crysKernel(maxL);
 
 %Inputs into fourier2ori
 miscinputs = {'maxIter', 2000, 'kernel', psik};%, 'fixAlpha', true
