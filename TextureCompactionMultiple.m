@@ -13,7 +13,7 @@ SS = specimenSymmetry('triclinic'); %Sample Symmetry
 % calcDT has a maximum bandwidth of 64
 maxL = 32;
 
-psik = 1.0./(1.0*(0:maxL) + 1.0);
+psik = crysKernel(maxL);
 
 
 %% Running the Code
