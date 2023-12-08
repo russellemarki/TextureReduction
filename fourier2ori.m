@@ -152,7 +152,7 @@ alpha = alpha/kahansum(alpha);
             TDI = E;
         end
 
-        TDI = TDI*TDI_scl;
+        TDI = TDI*TDI*TDI_scl;
         fcnt = fcnt + 1;
 
         if dispFlag
